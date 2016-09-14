@@ -1,0 +1,35 @@
+{
+	"title": "2SEBracket",
+	"maxnumberofplayers": 2,
+	"thirdplacematch": 0,
+	"rounds": {
+		"1": {
+			"defaulttext": "Finals",
+			"value": "R1"
+		}
+	},
+	"roundssections": {
+		"1": {
+			"type": "w",
+			"value": "Winners Bracket"
+		}
+	},
+	"inrounds": {
+		"1": {
+			"match_R1-1": {
+				"roundssection":1,
+				"players": {
+					"1":"list:1",
+					"2":"list:2"
+				}
+			}
+		}
+	},
+	"syntax":"|[prefix_name]=[name] |[prefix_race]=[race] |[prefix_flag]=[flag] |[prefix_score]=[score]",
+	"prefixes":{
+		"flag":"R[round][type][match]flag",
+		"race":"R[round][type][match]race",
+		"name":"R[round][type][match]",
+		"score":"R[round][type][match]score"
+	}
+}

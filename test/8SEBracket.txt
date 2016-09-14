@@ -1,0 +1,61 @@
+== Top Seed Qualification Group ==
+{{8SEBracket
+ <!-- QUARTERFINALS -->
+|R1D1=jjakji |R1D1race=t |R1D1score=W |R1D1flag=kr |R1D1win=1
+|R1D2=BYE |R1D2race=BYE |R1D2score=- |R1D2flag= |R1D2win=
+|R1G1details={{BracketMatchSummary
+|preview=this
+|lrthread=is
+|interview=a
+|recap=test
+|comment=the end
+}}
+|R1D3=Creator |R1D3race=p |R1D3score=1 |R1D3flag=kr |R1D3win=
+|R1D4=Tear |R1D4race=p |R1D4score=2 |R1D4flag=kr |R1D4win=1
+|R1G2details={{BracketMatchSummary
+|date=February 16, 2013 22:00 KST(GMT+9)
+|map1=Ohana |map1win=1 |vodgame1=http://www.youtube.com/1
+|map2=Daybreak |map2win=2 |vodgame2=http://www.youtube.com/2
+|map3=Entombed Valley |map3win=2 |vodgame3=http://www.youtube.com/3
+}}
+|R1D5=Noblesse |R1D5race=t |R1D5score=0 |R1D5flag=kr |R1D5win=
+|R1D6=Curious |R1D6race=z |R1D6score=2 |R1D6flag=kr |R1D6win=1
+|R1G3details={{BracketMatchSummary
+|date=February 16, 2013 22:00 KST(GMT+9)
+|map1=Ohana |map1win=2
+|map2=Daybreak |map2win=2
+}}
+|R1D7=BBoong |R1D7race=z |R1D7score=2 |R1D7flag=kr |R1D7win=1
+|R1D8=Mvp |R1D8race=t |R1D8score=0 |R1D8flag=kr |R1D8win=
+|R1G4details={{BracketMatchSummary
+|date=February 16, 2013 22:00 KST(GMT+9)
+|map1=Ohana |map1win=1
+|map2=Daybreak |map2win=1
+}}
+
+ <!-- SEMIFINALS-->
+|R2W1=jjakji |R2W1race=t |R2W1score=2 |R2W1flag=kr |R2W1win=1
+|R2W2=Tear |R2W2race=p |R2W2score=1 |R2W2flag=kr |R2W2win=
+|R2G1details={{BracketMatchSummary
+|date=February 16, 2013
+|map1=Cloud Kingdom |map1win=2
+|map2=Entombed Valley |map2win=1
+|map3=Ohana |map3win=1
+}}
+|R2W3=Curious |R2W3race=z |R2W3score=2 |R2W3flag=kr |R2W3win=1
+|R2W4=BBoong |R2W4race=z |R2W4score=0 |R2W4flag=kr |R2W4win=
+|R2G2details={{BracketMatchSummary
+|date=February 16, 2013
+|map1=Cloud Kingdom |map1win=1
+|map2=Entombed Valley |map2win=1
+}}
+
+ <!-- FINAL MATCH-->
+|R3W1=jjakji |R3W1race=t |R3W1score=0 |R3W1flag=kr |R3W1win=
+|R3W2=Curious |R3W2race=z |R3W2score=2 |R3W2flag=kr |R3W2win=1
+|R3G1details={{BracketMatchSummary
+|date=February 16, 2013
+|map1=Entombed Valley |map1win=2
+|map2=Ohana |map2win=2
+}}
+}}

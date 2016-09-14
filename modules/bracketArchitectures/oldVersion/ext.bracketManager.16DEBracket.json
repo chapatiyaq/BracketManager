@@ -1,0 +1,372 @@
+{
+	"title": "16DEBracket",
+	"maxnumberofplayers": "16",
+	"rounds": {
+		"1": {
+			"defaulttext": "Round 1",
+			"value": "R1"
+		},
+		"2": {
+			"defaulttext": "Round 2",
+			"value": "R2"
+		},
+		"3": {
+			"defaulttext": "Round 3",
+			"value": "R3"
+		},
+		"4": {
+			"defaulttext": "Round 4",
+			"value": "R4"
+		},
+		"5": {
+			"defaulttext": "Round 5",
+			"value": "R5"
+		},
+		"6": {
+			"defaulttext": "Round 6",
+			"value": "R6"
+		},
+		"7": {
+			"defaulttext": "Grand Finals",
+			"value": "R7"
+		}
+	},
+	"roundssections": {
+		"1": {
+			"type": "w",
+			"value": "Winners Bracket"
+		},
+		"2": {
+			"type": "l",
+			"value": "Losers Bracket"
+		},
+		"3": {
+			"type": "f",
+			"value": "Grand Finals"
+		}
+	},
+	"inrounds": {
+		"1": {
+			"match_R1-1": {
+				"roundssection": 1,
+				"connection": "trb",
+				"loserTargetEdit": "R1",
+				"players": {
+					"1": "list:1",
+					"2": "list:2"
+				}
+			},
+			"match_R1-2": {
+				"roundssection": 1,
+				"connection": "brt",
+				"loserTargetEdit": "R1",
+				"players": {
+					"1": "list:3",
+					"2": "list:4"
+				}
+			},
+			"match_R1-3": {
+				"roundssection": 1,
+				"connection": "trb",
+				"loserTargetEdit": "R1",
+				"players": {
+					"1": "list:5",
+					"2": "list:6"
+				}
+			},
+			"match_R1-4": {
+				"roundssection": 1,
+				"connection": "brt",
+				"loserTargetEdit": "R1",
+				"players": {
+					"1": "list:7",
+					"2": "list:8"
+				}
+			},
+			"match_R1-5": {
+				"roundssection": 1,
+				"connection": "trb",
+				"loserTargetEdit": "R1",
+				"players": {
+					"1": "list:9",
+					"2": "list:10"
+				}
+			},
+			"match_R1-6": {
+				"roundssection": 1,
+				"connection": "brt",
+				"loserTargetEdit": "R1",
+				"players": {
+					"1": "list:11",
+					"2": "list:12"
+				}
+			},
+			"match_R1-7": {
+				"roundssection": 1,
+				"connection": "trb",
+				"loserTargetEdit": "R1",
+				"players": {
+					"1": "list:13",
+					"2": "list:14"
+				}
+			},
+			"match_R1-8": {
+				"roundssection": 1,
+				"connection": "brt",
+				"loserTargetEdit": "R1",
+				"players": {
+					"1": "list:15",
+					"2": "list:16"
+				}
+			},
+			"match_R1-9": {
+				"roundssection": 2,
+				"connection": "brt-u",
+				"players": {
+					"1": "loserEdit:R1-1",
+					"2": "loserEdit:R1-2"
+				}
+			},
+			"match_R1-10": {
+				"roundssection": 2,
+				"connection": "brt-u",
+				"players": {
+					"1": "loserEdit:R1-3",
+					"2": "loserEdit:R1-4"
+				}
+			},
+			"match_R1-11": {
+				"roundssection": 2,
+				"connection": "brt-u",
+				"players": {
+					"1": "loserEdit:R1-5",
+					"2": "loserEdit:R1-6"
+				}
+			},
+			"match_R1-12": {
+				"roundssection": 2,
+				"connection": "brt",
+				"players": {
+					"1": "loserEdit:R1-7",
+					"2": "loserEdit:R1-8"
+				}
+			}
+		},
+		"2": {
+			"match_R2-1": {
+				"roundssection": 1,
+				"connection": "tr",
+				"loserTargetEdit": "R2",
+				"players": {
+					"1": "winner:R1-1",
+					"2": "winner:R1-2"
+				}
+			},
+			"onlycx_R2-C1": {
+				"roundssection": 1,
+				"connection": "rtr"
+			},
+			"match_R2-2": {
+				"roundssection": 1,
+				"connection": "br",
+				"loserTargetEdit": "R2",
+				"players": {
+					"1": "winner:R1-3",
+					"2": "winner:R1-4"
+				}
+			},
+			"blank_R2-B1": {
+				"roundssection": 1
+			},
+			"match_R2-3": {
+				"roundssection": 1,
+				"connection": "tr",
+				"loserTargetEdit": "R2",
+				"players": {
+					"1": "winner:R1-5",
+					"2": "winner:R1-6"
+				}
+			},
+			"onlycx_R2-C2": {
+				"roundssection": 1,
+				"connection": "rtr"
+			},
+			"match_R2-4": {
+				"roundssection": 1,
+				"connection": "br",
+				"loserTargetEdit": "R2",
+				"players": {
+					"1": "winner:R1-7",
+					"2": "winner:R1-8"
+				}
+			},
+			"match_R2-5": {
+				"roundssection": 2,
+				"connection": "trb",
+				"players": {
+					"1": "loserEdit:R2-4",
+					"2": "winner:R1-9"
+				}
+			},
+			"match_R2-6": {
+				"roundssection": 2,
+				"connection": "brt",
+				"players": {
+					"1": "loserEdit:R2-3",
+					"2": "winner:R1-10"
+				}
+			},
+			"match_R2-7": {
+				"roundssection": 2,
+				"connection": "trb",
+				"players": {
+					"1": "loserEdit:R2-2",
+					"2": "winner:R1-11"
+				}
+			},
+			"match_R2-8": {
+				"roundssection": 2,
+				"connection": "brt",
+				"players": {
+					"1": "loserEdit:R2-1",
+					"2": "winner:R1-12"
+				}
+			}
+		},
+		"3": {
+			"line_R3-L1": {
+				"roundssection": 1
+			},
+			"blank_R3-B1": {
+				"roundssection": 1
+			},
+			"blank_R3-B2": {
+				"roundssection": 1
+			},
+			"blank_R3-B3": {
+				"roundssection": 1
+			},
+			"line_R3-L2": {
+				"roundssection": 1
+			},
+			"match_R3-1": {
+				"roundssection": 2,
+				"connection": "brt",
+				"players": {
+					"1": "winner:R2-5",
+					"2": "winner:R2-6"
+				}
+			},
+			"onlycx_R3-C6": {
+				"roundssection": 2,
+				"connection": "u"
+			},
+			"match_R3-2": {
+				"roundssection": 2,
+				"connection": "brt",
+				"players": {
+					"1": "winner:R2-7",
+					"2": "winner:R2-8"
+				}
+			}
+		},
+		"4": {
+			"match_R4-1": {
+				"roundssection": 1,
+				"connection": "tr",
+				"loserTargetEdit": "R4",
+				"players": {
+					"1": "winner:R2-1",
+					"2": "winner:R2-2"
+				}
+			},
+			"onlycx_R4-C1": {
+				"roundssection": 1,
+				"connection": "rr"
+			},
+			"onlycx_R4-C2": {
+				"roundssection": 1,
+				"connection": "rtr"
+			},
+			"onlycx_R4-C3": {
+				"roundssection": 1,
+				"connection": "rr"
+			},
+			"match_R4-2": {
+				"roundssection": 1,
+				"connection": "br",
+				"loserTargetEdit": "R4",
+				"players": {
+					"1": "winner:R2-3",
+					"2": "winner:R2-4"
+				}
+			},
+			"match_R4-3": {
+				"roundssection": 2,
+				"connection": "tr",
+				"players": {
+					"1": "loserEdit:R4-1",
+					"2": "winner:R3-1"
+				}
+			},
+			"onlycx_R4-c4": {
+				"roundssection": 2,
+				"connection": "rtr"
+			},
+			"match_R4-4": {
+				"roundssection": 2,
+				"connection": "br",
+				"players": {
+					"1": "loserEdit:R4-2",
+					"2": "winner:R3-2"
+				}
+			}
+		},
+		"5": {
+			"line_R5-L1": {
+				"roundssection": 1
+			},
+			"match_R5-1": {
+				"roundssection": 2,
+				"connection": "brt",
+				"players": {
+					"1": "winner:R4-3",
+					"2": "winner:R4-4"
+				}
+			}
+		},
+		"6": {
+			"match_R6-1": {
+				"roundssection": 1,
+				"connection": "brt-d",
+				"players": {
+					"1": "winner:R4-1",
+					"2": "winner:R4-2"
+				}
+			},
+			"match_R6-2": {
+				"roundssection": 2,
+				"players": {
+					"1": "loser:R6-1",
+					"2": "winner:R5-1"
+				}
+			}
+		},
+		"7": {
+			"match_R7-1": {
+				"roundssection": 3,
+				"players": {
+					"1": "winner:R6-1",
+					"2": "winner:R6-2"
+				}
+			}
+		}
+	},
+	"syntax": "|[prefix_name]=[name] |[prefix_race]=[race] |[prefix_flag]=[flag] |[prefix_score]=[score]",
+	"prefixes": {
+		"flag": "R[round][type][match]flag",
+		"race": "R[round][type][match]race",
+		"name": "R[round][type][match]",
+		"score": "R[round][type][match]score"
+	}
+}

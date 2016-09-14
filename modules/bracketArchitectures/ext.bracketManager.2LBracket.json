@@ -1,0 +1,98 @@
+{
+	"title": "2LBracket",
+	"maxNumberOfPlayers": 3,
+	"structure": {
+		"loser": [
+			{
+				"type": "main",
+				"roundID": "R1",
+				"comment": "ROUND 1",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R1"
+					},
+					{
+						"type": "linespacer",
+						"height": 1
+					},
+					{
+						"type": "match",
+						"id": "R1G1"
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [
+					{ "type": "roundSpacer" },
+					{
+						"type": "spacer",
+						"height": "11px"
+					},
+					{
+						"type": "|_",
+						"height": "6px",
+						"break": 15
+					},
+					{ "type": "spacer",
+						"height": "20px"
+					},
+					{ "type": "_|¯",
+						"height": "18px",
+						"break": 15
+					},
+					{ "type": "spacer",
+						"height": "11px"
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R2",
+				"comment": "ROUND 2",
+				"elements": [					
+					{
+						"type": "roundTitle",
+						"id": "R2"
+					},
+					{
+						"type": "match",
+						"id": "R2G1"
+					}
+				]
+			}
+		]
+	},
+	"matches": {
+		"R1G1": {
+			"player1": {
+				"tag": "R1D1",
+				"source": "list:1"
+			},
+			"player2": {
+				"tag": "R1D2",
+				"source": "list:2"
+			}
+		},
+		"R2G1": {
+			"player1": {
+				"tag": "R2D1",
+				"source": "list:3"
+			},
+			"player2": {
+				"tag": "R2W1",
+				"source": "winner:R1G1"
+			}
+		}
+	},
+	"roundTitles": {
+		"R1": {
+			"text": "Round 1"
+		},
+		"R2": {
+			"text": "Round 2"
+		}
+	}
+}

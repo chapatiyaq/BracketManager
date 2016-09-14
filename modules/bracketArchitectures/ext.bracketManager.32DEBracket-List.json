@@ -1,0 +1,1645 @@
+{
+	"title": "32DEBracket",
+	"maxNumberOfPlayers": 48,
+	"structure": {
+		"winner": [
+			{
+				"type": "main",
+				"roundID": "R1",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R1"
+					},
+					{
+						"type": "match",
+						"id": "R1G1"
+					},
+					{
+						"type": "match",
+						"id": "R1G2"
+					},
+					{
+						"type": "match",
+						"id": "R1G3"
+					},
+					{
+						"type": "match",
+						"id": "R1G4"
+					},
+					{
+						"type": "match",
+						"id": "R1G5"
+					},
+					{
+						"type": "match",
+						"id": "R1G6"
+					},
+					{
+						"type": "match",
+						"id": "R1G7"
+					},
+					{
+						"type": "match",
+						"id": "R1G8"
+					},
+					{
+						"type": "match",
+						"id": "R1G9"
+					},
+					{
+						"type": "match",
+						"id": "R1G10"
+					},
+					{
+						"type": "match",
+						"id": "R1G11"
+					},
+					{
+						"type": "match",
+						"id": "R1G12"
+					},
+					{
+						"type": "match",
+						"id": "R1G13"
+					},
+					{
+						"type": "match",
+						"id": "R1G14"
+					},
+					{
+						"type": "match",
+						"id": "R1G15"
+					},
+					{
+						"type": "match",
+						"id": "R1G16"
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [
+					{ "type": "roundSpacer" },
+					{ "type": "spacer",
+						"height": "26px"
+					},
+					{
+						"type": "repeat",
+						"iterations": 8,
+						"core": [
+							{ "type": "¯|_",
+								"height": "18px",
+								"break": 15
+							},
+							{ "type": "spacer",
+								"height": "20px"
+							},
+							{ "type": "_|¯",
+								"height": "18px",
+								"break": 15
+							}
+						],
+						"between": [
+							{ "type": "spacer",
+								"height": "52px"
+							}
+						]
+					},
+					{ "type": "spacer",
+						"height": "26px"
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R2",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R2"
+					},
+					{
+						"type": "linespacer",
+						"height": 1
+					},
+					{
+						"type": "match",
+						"id": "R2G1"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					},
+					{
+						"type": "match",
+						"id": "R2G2"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					},
+					{
+						"type": "match",
+						"id": "R2G3"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					},
+					{
+						"type": "match",
+						"id": "R2G4"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					},
+					{
+						"type": "match",
+						"id": "R2G5"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					},
+					{
+						"type": "match",
+						"id": "R2G6"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					},
+					{
+						"type": "match",
+						"id": "R2G7"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					},
+					{
+						"type": "match",
+						"id": "R2G8"
+					},
+					{
+						"type": "linespacer",
+						"height": 1
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [
+					{ "type": "roundSpacer" },
+					{ "type": "spacer",
+						"height": "53px"
+					},
+					{
+						"type": "repeat",
+						"iterations": 4,
+						"core": [
+							{ "type": "¯|_",
+								"height": "45px",
+								"break": 15
+							},
+							{ "type": "spacer",
+								"height": "20px"
+							},
+							{ "type": "_|¯",
+								"height": "45px",
+								"break": 15
+							}
+						],
+						"between": [
+							{ "type": "spacer",
+								"height": "106px"
+							}
+						]
+					},
+					{ "type": "spacer",
+						"height": "53px"
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R3",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R3"
+					},
+					{
+						"type": "linespacer",
+						"height": 3
+					},
+					{
+						"type": "match",
+						"id": "R3G1"
+					},
+					{
+						"type": "linespacer",
+						"height": 6
+					},
+					{
+						"type": "match",
+						"id": "R3G2"
+					},
+					{
+						"type": "linespacer",
+						"height": 6
+					},
+					{
+						"type": "match",
+						"id": "R3G3"
+					},
+					{
+						"type": "linespacer",
+						"height": 6
+					},
+					{
+						"type": "match",
+						"id": "R3G4"
+					},
+					{
+						"type": "linespacer",
+						"height": 3
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [
+					{ "type": "roundSpacer" },
+					{ "type": "spacer",
+						"height": "107px"
+					},
+					{
+						"type": "repeat",
+						"iterations": 2,
+						"core": [
+							{ "type": "¯|_",
+								"height": "99px",
+								"break": 15
+							},
+							{ "type": "spacer",
+								"height": "20px"
+							},
+							{ "type": "_|¯",
+								"height": "99px",
+								"break": 15
+							}
+						],
+						"between": [
+							{ "type": "spacer",
+								"height": "214px"
+							}
+						]
+					},
+					{ "type": "spacer",
+						"height": "107px"
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R4",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R4"
+					},
+					{
+						"type": "linespacer",
+						"height": 7
+					},
+					{
+						"type": "match",
+						"id": "R4G1"
+					},
+					{
+						"type": "linespacer",
+						"height": 14
+					},
+					{
+						"type": "match",
+						"id": "R4G2"
+					},
+					{
+						"type": "linespacer",
+						"height": 7
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "441px",
+				"elements": [
+					{ "type": "roundSpacer" },
+					{ "type": "spacer",
+						"height": "215px"
+					},
+					{ "type": "¯|_",
+						"height": "207px",
+						"break": 15
+					},
+					{ "type": "spacer",
+						"height": "20px"
+					},
+					{ "type": "_|¯",
+						"height": "207px",
+						"break": 15
+					},
+					{ "type": "spacer",
+						"height": "215px"
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R5",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R5Gnonedit"
+					},
+					{
+						"type": "linespacer",
+						"height": 15
+					},
+					{
+						"type": "match",
+						"id": "R5G1"
+					},
+					{
+						"type": "linespacer",
+						"height": 15
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "207px",
+				"elements": [
+					{ "type": "roundSpacer" },
+					{ "type": "spacer",
+						"height": "431px"
+					},
+					{ "type": "¯|_",
+						"height": "0px",
+						"break": 15
+					}
+				]
+			}
+		],
+		"loser": [
+			{
+				"type": "main",
+				"roundID": "R1",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R1Gnonedit"
+					},
+					{
+						"type": "linespacer",
+						"height": 1
+					},
+					{
+						"type": "match",
+						"id": "R1G17"
+					},
+					{
+						"type": "match",
+						"id": "R1G18"
+					},
+					{
+						"type": "match",
+						"id": "R1G19"
+					},
+					{
+						"type": "match",
+						"id": "R1G20"
+					},
+					{
+						"type": "match",
+						"id": "R1G21"
+					},
+					{
+						"type": "match",
+						"id": "R1G22"
+					},
+					{
+						"type": "match",
+						"id": "R1G23"
+					},
+					{
+						"type": "match",
+						"id": "R1G24"
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [					
+					{ "type": "roundSpacer" },
+					{
+						"type": "spacer",
+						"height": "11px"
+					},
+					{
+						"type": "repeat",
+						"iterations": 8,
+						"core": [
+							{
+								"type": "|_",
+								"height": "6px",
+								"break": 15
+							},
+							{ "type": "spacer",
+								"height": "20px"
+							},
+							{ "type": "_|¯",
+								"height": "18px",
+								"break": 15
+							}
+						],
+						"between": [
+							{ "type": "spacer",
+								"height": "10px"
+							}
+						]
+					},
+					{ "type": "spacer",
+						"height": "11px"
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R2",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R2Gnonedit"
+					},
+					{
+						"type": "match",
+						"id": "R2G9"
+					},
+					{
+						"type": "match",
+						"id": "R2G10"
+					},
+					{
+						"type": "match",
+						"id": "R2G11"
+					},
+					{
+						"type": "match",
+						"id": "R2G12"
+					},
+					{
+						"type": "match",
+						"id": "R2G13"
+					},
+					{
+						"type": "match",
+						"id": "R2G14"
+					},
+					{
+						"type": "match",
+						"id": "R2G15"
+					},
+					{
+						"type": "match",
+						"id": "R2G16"
+					},
+					{
+						"type": "linespacer",
+						"height": 1
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [					
+					{ "type": "roundSpacer" },
+					{ "type": "spacer",
+						"height": "26px"
+					},
+					{
+						"type": "repeat",
+						"iterations": 4,
+						"core": [
+							{
+								"type": "¯|_",
+								"height": "18px",
+								"break": 15
+							},
+							{ "type": "spacer",
+								"height": "20px"
+							},
+							{ "type": "_|¯",
+								"height": "18px",
+								"break": 15
+							}
+						],
+						"between": [
+							{ "type": "spacer",
+								"height": "52px"
+							}
+						]
+					},
+					{ "type": "spacer",
+						"height": "26px"
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R3",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R3Gnonedit"
+					},
+					{
+						"type": "linespacer",
+						"height": 1
+					},
+					{
+						"type": "match",
+						"id": "R3G5"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					},
+					{
+						"type": "match",
+						"id": "R3G6"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					},
+					{
+						"type": "match",
+						"id": "R3G7"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					},
+					{
+						"type": "match",
+						"id": "R3G8"
+					},
+					{
+						"type": "linespacer",
+						"height": 1
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [					
+					{ "type": "roundSpacer" },
+					{
+						"type": "spacer",
+						"height": "11px"
+					},
+					{
+						"type": "repeat",
+						"iterations": 4,
+						"core": [
+							{
+								"type": "|_",
+								"height": "6px",
+								"break": 15
+							},
+							{ "type": "spacer",
+								"height": "20px"
+							},
+							{ "type": "_|¯",
+								"height": "18px",
+								"break": 15
+							}
+						],
+						"between": [
+							{ "type": "spacer",
+								"height": "64px"
+							}
+						]
+					},
+					{
+						"type": "spacer",
+						"height": "11px"
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R4",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R4Gnonedit"
+					},
+					{
+						"type": "match",
+						"id": "R4G3"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					},
+					{
+						"type": "match",
+						"id": "R4G4"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					},
+					{
+						"type": "match",
+						"id": "R4G5"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					},
+					{
+						"type": "match",
+						"id": "R4G6"
+					},
+					{
+						"type": "linespacer",
+						"height": 3
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [					
+					{ "type": "roundSpacer" },
+					{ "type": "spacer",
+						"height": "26px"
+					},
+					{
+						"type": "repeat",
+						"iterations": 2,
+						"core": [
+							{
+								"type": "¯|_",
+								"height": "45px",
+								"break": 15
+							},
+							{ "type": "spacer",
+								"height": "20px"
+							},
+							{ "type": "_|¯",
+								"height": "45px",
+								"break": 15
+							}
+						],
+						"between": [
+							{ "type": "spacer",
+								"height": "106px"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R5",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R5"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					},
+					{
+						"type": "match",
+						"id": "R5G2"
+					},
+					{
+						"type": "linespacer",
+						"height": 6
+					},
+					{
+						"type": "match",
+						"id": "R5G3"
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [
+					{ "type": "roundSpacer" },
+					{
+						"type": "spacer",
+						"height": "38px"
+					},
+					{
+						"type": "repeat",
+						"iterations": 2,
+						"core": [
+							{
+								"type": "|_",
+								"height": "6px",
+								"break": 15
+							},
+							{ "type": "spacer",
+								"height": "20px"
+							},
+							{ "type": "_|¯",
+								"height": "18px",
+								"break": 15
+							}
+						],
+						"between": [
+							{ "type": "spacer",
+								"height": "172px"
+							}
+						]
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R6",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R6"
+					},
+					{
+						"type": "linespacer",
+						"height": 1
+					},
+					{
+						"type": "match",
+						"id": "R6G1"
+					},
+					{
+						"type": "linespacer",
+						"height": 6
+					},
+					{
+						"type": "match",
+						"id": "R6G2"
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [
+					{ "type": "roundSpacer" },
+					{
+						"type": "spacer",
+						"height": "53px"
+					},
+					{
+						"type": "¯|_",
+						"height": "99px",
+						"break": 15
+					},
+					{ "type": "spacer",
+						"height": "20px"
+					},
+					{ "type": "_|¯",
+						"height": "99px",
+						"break": 15
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R7",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R7Gnonedit"
+					},
+					{
+						"type": "linespacer",
+						"height": 5
+					},
+					{
+						"type": "match",
+						"id": "R7G1"
+					},
+					{
+						"type": "linespacer",
+						"height": 9
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [
+					{ "type": "roundSpacer" },
+					{
+						"type": "spacer",
+						"height": "119px"
+					},
+					{
+						"type": "|_",
+						"height": "6px",
+						"break": 15
+					},
+					{ "type": "spacer",
+						"height": "20px"
+					},
+					{ "type": "_|¯",
+						"height": "18px",
+						"break": 15
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R8",
+				"elements": [					
+					{ "type": "roundSpacer" },
+					{
+						"type": "linespacer",
+						"height": 4
+					},
+					{
+						"type": "match",
+						"id": "R8G1"
+					},
+					{
+						"type": "linespacer",
+						"height": 10
+					}
+				]
+			}
+		],
+		"final": [
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [
+					{ "type": "roundSpacer" },
+					{
+						"type": "spacer",
+						"height": "431px"
+					},
+					{ "type": "¯|_",
+						"height": "288px",
+						"break": 15
+					},
+					{
+						"type": "spacer",
+						"height": "20px"
+					},
+					{ "type": "_|¯",
+						"height": "294px",
+						"break": 15
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R9",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R9Gnonedit"
+					},
+					{
+						"type": "linespacer",
+						"height": 26
+					},
+					{
+						"type": "match",
+						"id": "R9G1"
+					}
+				]
+			}
+		]
+	},
+	"matches": {
+		"R1G1": {
+			"player1": {
+				"tag": "R1D1",
+				"source": "list:1"
+			},
+			"player2": {
+				"tag": "R1D2",
+				"source": "list:2"
+			}
+		},
+		"R1G2": {
+			"player1": {
+				"tag": "R1D5",
+				"source": "list:5"
+			},
+			"player2": {
+				"tag": "R1D4",
+				"source": "list:4"
+			}
+		},
+		"R1G3": {
+			"player1": {
+				"tag": "R1D5",
+				"source": "list:5"
+			},
+			"player2": {
+				"tag": "R1D6",
+				"source": "list:6"
+			}
+		},
+		"R1G4": {
+			"player1": {
+				"tag": "R1D7",
+				"source": "list:7"
+			},
+			"player2": {
+				"tag": "R1D8",
+				"source": "list:8"
+			}
+		},
+		"R1G5": {
+			"player1": {
+				"tag": "R1D9",
+				"source": "list:9"
+			},
+			"player2": {
+				"tag": "R1D10",
+				"source": "list:10"
+			}
+		},
+		"R1G6": {
+			"player1": {
+				"tag": "R1D11",
+				"source": "list:11"
+			},
+			"player2": {
+				"tag": "R1D12",
+				"source": "list:12"
+			}
+		},
+		"R1G7": {
+			"player1": {
+				"tag": "R1D13",
+				"source": "list:13"
+			},
+			"player2": {
+				"tag": "R1D14",
+				"source": "list:14"
+			}
+		},
+		"R1G8": {
+			"player1": {
+				"tag": "R1D15",
+				"source": "list:15"
+			},
+			"player2": {
+				"tag": "R1D16",
+				"source": "list:16"
+			}
+		},
+		"R1G9": {
+			"player1": {
+				"tag": "R1D17",
+				"source": "list:17"
+			},
+			"player2": {
+				"tag": "R1D18",
+				"source": "list:18"
+			}
+		},
+		"R1G10": {
+			"player1": {
+				"tag": "R1D19",
+				"source": "list:19"
+			},
+			"player2": {
+				"tag": "R1D20",
+				"source": "list:20"
+			}
+		},
+		"R1G11": {
+			"player1": {
+				"tag": "R1D21",
+				"source": "list:21"
+			},
+			"player2": {
+				"tag": "R1D22",
+				"source": "list:22"
+			}
+		},
+		"R1G12": {
+			"player1": {
+				"tag": "R1D23",
+				"source": "list:23"
+			},
+			"player2": {
+				"tag": "R1D24",
+				"source": "list:24"
+			}
+		},
+		"R1G13": {
+			"player1": {
+				"tag": "R1D25",
+				"source": "list:25"
+			},
+			"player2": {
+				"tag": "R1D26",
+				"source": "list:26"
+			}
+		},
+		"R1G14": {
+			"player1": {
+				"tag": "R1D27",
+				"source": "list:27"
+			},
+			"player2": {
+				"tag": "R1D28",
+				"source": "list:28"
+			}
+		},
+		"R1G15": {
+			"player1": {
+				"tag": "R1D29",
+				"source": "list:29"
+			},
+			"player2": {
+				"tag": "R1D30",
+				"source": "list:30"
+			}
+		},
+		"R1G16": {
+			"player1": {
+				"tag": "R1D31",
+				"source": "list:31"
+			},
+			"player2": {
+				"tag": "R1D32",
+				"source": "list:32"
+			}
+		},
+		"R1G17": {
+			"player1": {
+				"tag": "R1D33",
+				"source": "list:33"
+			},
+			"player2": {
+				"tag": "R1D34",
+				"source": "list:34"
+			}
+		},
+		"R1G18": {
+			"player1": {
+				"tag": "R1D35",
+				"source": "list:35"
+			},
+			"player2": {
+				"tag": "R1D36",
+				"source": "list:36"
+			}
+		},
+		"R1G19": {
+			"player1": {
+				"tag": "R1D37",
+				"source": "list:37"
+			},
+			"player2": {
+				"tag": "R1D38",
+				"source": "list:38"
+			}
+		},
+		"R1G20": {
+			"player1": {
+				"tag": "R1D39",
+				"source": "list:39"
+			},
+			"player2": {
+				"tag": "R1D40",
+				"source": "list:40"
+			}
+		},
+		"R1G21": {
+			"player1": {
+				"tag": "R1D41",
+				"source": "list:41"
+			},
+			"player2": {
+				"tag": "R1D42",
+				"source": "list:42"
+			}
+		},
+		"R1G22": {
+			"player1": {
+				"tag": "R1D43",
+				"source": "list:43"
+			},
+			"player2": {
+				"tag": "R1D44",
+				"source": "list:44"
+			}
+		},
+		"R1G23": {
+			"player1": {
+				"tag": "R1D45",
+				"source": "list:45"
+			},
+			"player2": {
+				"tag": "R1D46",
+				"source": "list:46"
+			}
+		},
+		"R1G24": {
+			"player1": {
+				"tag": "R1D47",
+				"source": "list:47"
+			},
+			"player2": {
+				"tag": "R1D48",
+				"source": "list:48"
+			}
+		},
+		"R2G1": {
+			"loserEditScope": "R2",
+			"player1": {
+				"tag": "R2W1",
+				"source": "winner:R1G1"
+			},
+			"player2": {
+				"tag": "R2W2",
+				"source": "winner:R1G2"
+			}
+		},
+		"R2G2": {
+			"loserEditScope": "R2",
+			"player1": {
+				"tag": "R2W3",
+				"source": "winner:R1G3"
+			},
+			"player2": {
+				"tag": "R2W4",
+				"source": "winner:R1G4"
+			}
+		},
+		"R2G3": {
+			"loserEditScope": "R2",
+			"player1": {
+				"tag": "R2W5",
+				"source": "winner:R1G5"
+			},
+			"player2": {
+				"tag": "R2W6",
+				"source": "winner:R1G6"
+			}
+		},
+		"R2G4": {
+			"loserEditScope": "R2",
+			"player1": {
+				"tag": "R2W7",
+				"source": "winner:R1G7"
+			},
+			"player2": {
+				"tag": "R2W8",
+				"source": "winner:R1G8"
+			}
+		},
+		"R2G5": {
+			"loserEditScope": "R2",
+			"player1": {
+				"tag": "R2W9",
+				"source": "winner:R1G9"
+			},
+			"player2": {
+				"tag": "R2W10",
+				"source": "winner:R1G10"
+			}
+		},
+		"R2G6": {
+			"loserEditScope": "R2",
+			"player1": {
+				"tag": "R2W11",
+				"source": "winner:R1G11"
+			},
+			"player2": {
+				"tag": "R2W12",
+				"source": "winner:R1G12"
+			}
+		},
+		"R2G7": {
+			"loserEditScope": "R2",
+			"player1": {
+				"tag": "R2W13",
+				"source": "winner:R1G13"
+			},
+			"player2": {
+				"tag": "R2W14",
+				"source": "winner:R1G14"
+			}
+		},
+		"R2G8": {
+			"loserEditScope": "R2",
+			"player1": {
+				"tag": "R2W15",
+				"source": "winner:R1G15"
+			},
+			"player2": {
+				"tag": "R2W16",
+				"source": "winner:R1G16"
+			}
+		},
+		"R2G9": {
+			"player1": {
+				"tag": "R2D1",
+				"source": "loserEdit:R2G8",
+				"loserEditScope": "R2"
+			},
+			"player2": {
+				"tag": "R2W17",
+				"source": "winner:R1G17"
+			}
+		},
+		"R2G10": {
+			"player1": {
+				"tag": "R2D2",
+				"source": "loserEdit:R2G7",
+				"loserEditScope": "R2"
+			},
+			"player2": {
+				"tag": "R2W18",
+				"source": "winner:R1G18"
+			}
+		},
+		"R2G11": {
+			"player1": {
+				"tag": "R2D3",
+				"source": "loserEdit:R2G6",
+				"loserEditScope": "R2"
+			},
+			"player2": {
+				"tag": "R2W19",
+				"source": "winner:R1G19"
+			}
+		},
+		"R2G12": {
+			"player1": {
+				"tag": "R2D4",
+				"source": "loserEdit:R2G5",
+				"loserEditScope": "R2"
+			},
+			"player2": {
+				"tag": "R2W20",
+				"source": "winner:R1G20"
+			}
+		},
+		"R2G13": {
+			"player1": {
+				"tag": "R2D5",
+				"source": "loserEdit:R2G4",
+				"loserEditScope": "R2"
+			},
+			"player2": {
+				"tag": "R2W21",
+				"source": "winner:R1G21"
+			}
+		},
+		"R2G14": {
+			"player1": {
+				"tag": "R2D6",
+				"source": "loserEdit:R2G3",
+				"loserEditScope": "R2"
+			},
+			"player2": {
+				"tag": "R2W22",
+				"source": "winner:R1G22"
+			}
+		},
+		"R2G15": {
+			"player1": {
+				"tag": "R2D7",
+				"source": "loserEdit:R2G2",
+				"loserEditScope": "R2"
+			},
+			"player2": {
+				"tag": "R2W23",
+				"source": "winner:R1G23"
+			}
+		},
+		"R2G16": {
+			"player1": {
+				"tag": "R2D8",
+				"source": "loserEdit:R2G1",
+				"loserEditScope": "R2"
+			},
+			"player2": {
+				"tag": "R2W24",
+				"source": "winner:R1G24"
+			}
+		},
+		"R3G1": {
+			"loserEditScope": "R3",
+			"player1": {
+				"tag": "R3W1",
+				"source": "winner:R2G1"
+			},
+			"player2": {
+				"tag": "R3W2",
+				"source": "winner:R2G2"
+			}
+		},
+		"R3G2": {
+			"loserEditScope": "R3",
+			"player1": {
+				"tag": "R3W3",
+				"source": "winner:R2G3"
+			},
+			"player2": {
+				"tag": "R3W4",
+				"source": "winner:R2G4"
+			}
+		},
+		"R3G3": {
+			"loserEditScope": "R3",
+			"player1": {
+				"tag": "R3W5",
+				"source": "winner:R2G5"
+			},
+			"player2": {
+				"tag": "R3W6",
+				"source": "winner:R2G6"
+			}
+		},
+		"R3G4": {
+			"loserEditScope": "R3",
+			"player1": {
+				"tag": "R3W7",
+				"source": "winner:R2G7"
+			},
+			"player2": {
+				"tag": "R3W8",
+				"source": "winner:R2G8"
+			}
+		},
+		"R3G5": {
+			"player1": {
+				"tag": "R3W9",
+				"source": "winner:R2G9"
+			},
+			"player2": {
+				"tag": "R3W10",
+				"source": "winner:R2G10"
+			}
+		},
+		"R3G6": {
+			"player1": {
+				"tag": "R3W11",
+				"source": "winner:R2G11"
+			},
+			"player2": {
+				"tag": "R3W12",
+				"source": "winner:R2G12"
+			}
+		},
+		"R3G7": {
+			"player1": {
+				"tag": "R3W13",
+				"source": "winner:R2G13"
+			},
+			"player2": {
+				"tag": "R3W14",
+				"source": "winner:R2G14"
+			}
+		},
+		"R3G8": {
+			"player1": {
+				"tag": "R3W15",
+				"source": "winner:R2G15"
+			},
+			"player2": {
+				"tag": "R3W16",
+				"source": "winner:R2G16"
+			}
+		},
+		"R4G1": {
+			"loserEditScope": "R4",
+			"player1": {
+				"tag": "R4W1",
+				"source": "winner:R3G1"
+			},
+			"player2": {
+				"tag": "R4W2",
+				"source": "winner:R3G2"
+			}
+		},
+		"R4G2": {
+			"loserEditScope": "R4",
+			"player1": {
+				"tag": "R4W3",
+				"source": "winner:R3G3"
+			},
+			"player2": {
+				"tag": "R4W4",
+				"source": "winner:R3G4"
+			}
+		},
+		"R4G3": {
+			"player1": {
+				"tag": "R4D1",
+				"source": "loserEdit:R3G1",
+				"loserEditScope": "R3"
+			},
+			"player2": {
+				"tag": "R4W5",
+				"source": "winner:R3G5"
+			}
+		},
+		"R4G4": {
+			"player1": {
+				"tag": "R4D2",
+				"source": "loserEdit:R3G2",
+				"loserEditScope": "R3"
+			},
+			"player2": {
+				"tag": "R4W6",
+				"source": "winner:R3G6"
+			}
+		},
+		"R4G5": {
+			"player1": {
+				"tag": "R4D3",
+				"source": "loserEdit:R3G3",
+				"loserEditScope": "R3"
+			},
+			"player2": {
+				"tag": "R4W7",
+				"source": "winner:R3G7"
+			}
+		},
+		"R4G6": {
+			"player1": {
+				"tag": "R4D4",
+				"source": "loserEdit:R3G4",
+				"loserEditScope": "R3"
+			},
+			"player2": {
+				"tag": "R4W8",
+				"source": "winner:R3G8"
+			}
+		},
+		"R5G2": {
+			"player1": {
+				"tag": "R5W3",
+				"source": "winner:R4G3"
+			},
+			"player2": {
+				"tag": "R5W4",
+				"source": "winner:R4G4"
+			}
+		},
+		"R5G3": {
+			"player1": {
+				"tag": "R5W5",
+				"source": "winner:R4G5"
+			},
+			"player2": {
+				"tag": "R5W6",
+				"source": "winner:R4G6"
+			}
+		},
+		"R6G1": {
+			"player1": {
+				"tag": "R6D1",
+				"source": "loserEdit:R4G2",
+				"loserEditScope": "R4"
+			},
+			"player2": {
+				"tag": "R6W1",
+				"source": "winner:R5G2"
+			}
+		},
+		"R6G2": {
+			"player1": {
+				"tag": "R6D2",
+				"source": "loserEdit:R4G1",
+				"loserEditScope": "R4"
+			},
+			"player2": {
+				"tag": "R6W2",
+				"source": "winner:R5G3"
+			}
+		},
+		"R5G1": {
+			"player1": {
+				"tag": "R5W1",
+				"source": "winner:R4G1"
+			},
+			"player2": {
+				"tag": "R5W2",
+				"source": "winner:R4G2"
+			}
+		},
+		"R7G1": {
+			"player1": {
+				"tag": "R7W1",
+				"source": "winner:R6G1"
+			},
+			"player2": {
+				"tag": "R7W2",
+				"source": "winner:R6G2"
+			}
+		},
+		"R8G1": {
+			"player1": {
+				"tag": "R8D1",
+				"source": "loser:R5G1"
+			},
+			"player2": {
+				"tag": "R8W1",
+				"source": "winner:R7G1"
+			}
+		},
+		"R9G1": {
+			"secondSeries": true,
+			"player1": {
+				"tag": "R9W1",
+				"source": "winner:R5G1"
+			},
+			"player2": {
+				"tag": "R9W2",
+				"source": "winner:R8G1"
+			}
+		}
+	},
+	"roundTitles": {
+		"R1": {
+			"text": "Round 1"
+		},
+		"R2": {
+			"text": "Round 2"
+		},
+		"R3": {
+			"text": "Round 3"
+		},
+		"R4": {
+			"text": "Round 4"
+		},
+		"R5": {
+			"text": "Round 5"
+		},
+		"R6": {
+			"text": "Round 6"
+		},
+		"R9": {
+			"text": "Grand Final"
+		},
+		"R1Gnonedit": {
+			"text": "Round 1",
+			"non-editable": true
+		},
+		"R2Gnonedit": {
+			"text": "Round 2",
+			"non-editable": true
+		},
+		"R3Gnonedit": {
+			"text": "Round 3",
+			"non-editable": true
+		},
+		"R4Gnonedit": {
+			"text": "Round 4",
+			"non-editable": true
+		},
+		"R5Gnonedit": {
+			"text": "From Winners Bracket",
+			"non-editable": true
+		},
+		"R7Gnonedit": {
+			"text": "From Losers Bracket",
+			"non-editable": true
+		},
+		"R9Gnonedit": {
+			"text": "Grand Final",
+			"non-editable": true
+		}
+	}
+}

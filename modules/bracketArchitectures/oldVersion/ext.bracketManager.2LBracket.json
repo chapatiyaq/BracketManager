@@ -1,0 +1,48 @@
+{
+	"title": "2LBracket",
+	"maxnumberofplayers": "3",
+	"rounds": {
+		"1": {
+			"defaulttext": "Round 1",
+			"value": "R1"
+		},
+		"2": {
+			"defaulttext": "Round 2",
+			"value": "R2"
+		}
+	},
+	"roundssections": {
+		"1": {
+			"type": "l",
+			"value": "Losers Bracket"
+		}
+	},
+	"inrounds": {
+		"1": {
+			"match_R1-1": {
+				"roundssection": 1,
+				"connection": "brt",
+				"players": {
+					"1": "list:1",
+					"2": "list:2"
+				}
+			}
+		},
+		"2": {
+			"match_R2-1": {
+				"roundssection": 1,
+				"players": {
+					"1": "list:3",
+					"2": "winner:R1-1"
+				}
+			}
+		}
+	},
+	"syntax": "|[prefix_name]=[name] |[prefix_race]=[race] |[prefix_flag]=[flag] |[prefix_score]=[score]",
+	"prefixes": {
+		"flag": "R[round][type][match]flag",
+		"race": "R[round][type][match]race",
+		"name": "R[round][type][match]",
+		"score": "R[round][type][match]score"
+	}
+}

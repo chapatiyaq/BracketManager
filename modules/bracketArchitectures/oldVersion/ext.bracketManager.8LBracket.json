@@ -1,0 +1,176 @@
+{
+	"title": "8LBracket",
+	"maxnumberofplayers": "15",
+	"rounds": {
+		"1": {
+			"defaulttext": "Round 1",
+			"value": "R1"
+		},
+		"2": {
+			"defaulttext": "Round 2",
+			"value": "R2"
+		},
+		"3": {
+			"defaulttext": "Round 3",
+			"value": "R3"
+		},
+		"4": {
+			"defaulttext": "Round 4",
+			"value": "R4"
+		},
+		"5": {
+			"defaulttext": "Round 5",
+			"value": "R5"
+		},
+		"6": {
+			"defaulttext": "LB Finals",
+			"value": "R6"
+		}
+	},
+	"roundssections": {
+		"1": {
+			"type": "l",
+			"value": "Losers Bracket"
+		}
+	},
+	"inrounds": {
+		"1": {
+			"match_R1-1": {
+				"roundssection": 1,
+				"connection": "brt-u",
+				"players": {
+					"1": "list:1",
+					"2": "list:2"
+				}
+			},
+			"match_R1-2": {
+				"roundssection": 1,
+				"connection": "brt-u",
+				"players": {
+					"1": "list:3",
+					"2": "list:4"
+				}
+			},
+			"match_R1-3": {
+				"roundssection": 1,
+				"connection": "brt-u",
+				"players": {
+					"1": "list:5",
+					"2": "list:6"
+				}
+			},
+			"match_R1-4": {
+				"roundssection": 1,
+				"connection": "brt",
+				"players": {
+					"1": "list:7",
+					"2": "list:8"
+				}
+			}
+		},
+		"2": {
+			"match_R2-1": {
+				"roundssection": 1,
+				"connection": "trb",
+				"players": {
+					"1": "list:9",
+					"2": "winner:R1-1"
+				}
+			},
+			"match_R2-2": {
+				"roundssection": 1,
+				"connection": "brt",
+				"players": {
+					"1": "list:10",
+					"2": "winner:R1-2"
+				}
+			},
+			"match_R2-3": {
+				"roundssection": 1,
+				"connection": "trb",
+				"players": {
+					"1": "list:11",
+					"2": "winner:R1-3"
+				}
+			},
+			"match_R2-4": {
+				"roundssection": 1,
+				"connection": "brt",
+				"players": {
+					"1": "list:12",
+					"2": "winner:R1-4"
+				}
+			}
+		},
+		"3": {
+			"match_R3-1": {
+				"roundssection": 1,
+				"connection": "brt",
+				"players": {
+					"1": "winner:R2-1",
+					"2": "winner:R2-2"
+				}
+			},
+			"onlycx_R3-C1": {
+				"roundssection": 1,
+				"connection": "u"
+			},
+			"match_R3-2": {
+				"roundssection": 1,
+				"connection": "brt",
+				"players": {
+					"1": "winner:R2-3",
+					"2": "winner:R2-4"
+				}
+			}
+		},
+		"4": {
+			"match_R4-1": {
+				"roundssection": 1,
+				"connection": "tr",
+				"players": {
+					"1": "list:13",
+					"2": "winner:R3-1"
+				}
+			},
+			"onlycx_R4-C1": {
+				"roundssection": 1,
+				"connection": "rtr"
+			},
+			"match_R4-2": {
+				"roundssection": 1,
+				"connection": "br",
+				"players": {
+					"1": "list:14",
+					"2": "winner:R3-2"
+				}
+			}
+		},
+		"5": {
+			"match_R5-1": {
+				"roundssection": 1,
+				"connection": "brt",
+				"players": {
+					"1": "winner:R4-1",
+					"2": "winner:R4-2"
+				}
+			}
+		},
+		"6": {
+			"match_R6-1": {
+				"roundssection": 1,
+				"players": {
+					"1": "list:15",
+					"2": "winner:R5-1"
+				}
+			}
+		}
+	},
+	"syntax": "|[prefix_name]=[name] |[prefix_race]=[race] |[prefix_flag]=[flag] |[prefix_score]=[score]",
+	"prefixes": {
+		"flag": "R[round][type][match]flag",
+		"race": "R[round][type][match]race",
+		"name": "R[round][type][match]",
+		"score": "R[round][type][match]score"
+	}
+}

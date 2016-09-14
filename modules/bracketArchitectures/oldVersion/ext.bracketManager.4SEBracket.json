@@ -1,0 +1,67 @@
+{
+	"title": "4SEBracket",
+	"maxnumberofplayers": 4,
+	"thirdplacematch": "1",
+	"rounds": {
+		"1": {
+			"defaulttext": "Semifinals",
+			"value": "R1"
+		},
+		"2": {
+			"defaulttext": "Finals",
+			"value": "R2"
+		}
+	},
+	"roundssections": {
+		"1": {
+			"type": "w",
+			"value": "Winners Bracket"
+		}
+	},
+	"inrounds": {
+		"1": {
+			"match_R1-1": {
+				"roundssection": 1,
+				"connection": "trb",
+				"players": {
+					"1": "list:1",
+					"2": "list:2"
+				}
+			},
+			"match_R1-2": {
+				"roundssection": 1,
+				"connection": "brt",
+				"players": {
+					"1": "list:3",
+					"2": "list:4"
+				}
+			}
+		},
+		"2": {
+			"match_R2-1": {
+				"roundssection": 1,
+				"players": {
+					"1": "winner:R1-1",
+					"2": "winner:R1-2"
+				}
+			},
+			"thirdplacelabel_R2-T1": {
+				"roundssection": 1
+			},
+			"thirdplacematch_R2-2": {
+				"roundssection": 1,
+				"players": {
+					"1": "loser:R1-1",
+					"2": "loser:R1-2"
+				}
+			}
+		}
+	},
+	"syntax":"|[prefix_name]=[name] |[prefix_race]=[race] |[prefix_flag]=[flag] |[prefix_score]=[score]",
+	"prefixes":{
+		"flag":"R[round][type][match]flag",
+		"race":"R[round][type][match]race",
+		"name":"R[round][type][match]",
+		"score":"R[round][type][match]score"
+	}
+}

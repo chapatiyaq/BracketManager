@@ -1,0 +1,253 @@
+{
+	"title": "4LBracket",
+	"maxNumberOfPlayers": 7,
+	"structure": {
+		"loser": [
+			{
+				"type": "main",
+				"roundID": "R1",
+				"comment": "ROUND 1",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R1"
+					},
+					{
+						"type": "linespacer",
+						"height": 1
+					},
+					{
+						"type": "match",
+						"id": "R1G1"
+					},
+					{
+						"type": "match",
+						"id": "R1G2"
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [
+					{ "type": "roundSpacer" },
+					{
+						"type": "spacer",
+						"height": "11px"
+					},
+					{
+						"type": "repeat",
+						"iterations": 2,
+						"core": [
+							{
+								"type": "|_",
+								"height": "6px",
+								"break": 15
+							},
+							{ "type": "spacer",
+								"height": "20px"
+							},
+							{ "type": "_|¯",
+								"height": "18px",
+								"break": 15
+							}
+						],
+						"between": [
+							{ "type": "spacer",
+								"height": "10px"
+							}
+						]
+					},
+					{ "type": "spacer",
+						"height": "11px"
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R2",
+				"comment": "ROUND 2",
+				"elements": [					
+					{
+						"type": "roundTitle",
+						"id": "R2"
+					},
+					{
+						"type": "match",
+						"id": "R2G1"
+					},
+					{
+						"type": "match",
+						"id": "R2G2"
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [
+					{ "type": "roundSpacer" },
+					{ "type": "spacer",
+						"height": "26px"
+					},
+					{
+						"type": "¯|_",
+						"height": "18px",
+						"break": 15
+					},
+					{ "type": "spacer",
+						"height": "20px"
+					},
+					{ "type": "_|¯",
+						"height": "18px",
+						"break": 15
+					},
+					{ "type": "spacer",
+						"height": "26px"
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R3",
+				"comment": "ROUND 3",
+				"elements": [					
+					{
+						"type": "roundTitle",
+						"id": "R3"
+					},
+					{
+						"type": "linespacer",
+						"height": 1
+					},
+					{
+						"type": "match",
+						"id": "R3G1"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [
+					{ "type": "roundSpacer" },
+					{
+						"type": "spacer",
+						"height": "11px"
+					},
+					{
+						"type": "|_",
+						"height": "6px",
+						"break": 15
+					},
+					{ "type": "spacer",
+						"height": "20px"
+					},
+					{ "type": "_|¯",
+						"height": "18px",
+						"break": 15
+					},
+					{
+						"type": "spacer",
+						"height": "11px"
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R4",
+				"comment": "LB FINALS",
+				"elements": [					
+					{
+						"type": "roundTitle",
+						"id": "R4"
+					},
+					{
+						"type": "match",
+						"id": "R4G1"
+					}
+				]
+			}
+		]
+	},
+	"matches": {
+		"R1G1": {
+			"player1": {
+				"tag": "R1D1",
+				"source": "list:1"
+			},
+			"player2": {
+				"tag": "R1D2",
+				"source": "list:2"
+			}
+		},
+		"R1G2": {
+			"player1": {
+				"tag": "R1D3",
+				"source": "list:3"
+			},
+			"player2": {
+				"tag": "R1D4",
+				"source": "list:4"
+			}
+		},
+		"R2G1": {
+			"player1": {
+				"tag": "R2D1",
+				"source": "list:5"
+			},
+			"player2": {
+				"tag": "R2W1",
+				"source": "winner:R1G1"
+			}
+		},
+		"R2G2": {
+			"player1": {
+				"tag": "R2D2",
+				"source": "list:6"
+			},
+			"player2": {
+				"tag": "R2W2",
+				"source": "winner:R1G2"
+			}
+		},
+		"R3G1": {
+			"player1": {
+				"tag": "R3W1",
+				"source": "winner:R2G1"
+			},
+			"player2": {
+				"tag": "R3W2",
+				"source": "winner:R2G2"
+			}
+		},
+		"R4G1": {
+			"player1": {
+				"tag": "R4D1",
+				"source": "list:7"
+			},
+			"player2": {
+				"tag": "R4W1",
+				"source": "winner:R3G1"
+			}
+		}
+	},
+	"roundTitles": {
+		"R1": {
+			"text": "Round 1"
+		},
+		"R2": {
+			"text": "Round 2"
+		},
+		"R3": {
+			"text": "Round 3"
+		},
+		"R4": {
+			"text": "LB Finals"
+		}
+	}
+}

@@ -1,0 +1,95 @@
+{
+	"title": "4DEBracket",
+	"maxnumberofplayers": "4",
+	"rounds": {
+		"1": {
+			"defaulttext": "Round 1",
+			"value": "R1"
+		},
+		"2": {
+			"defaulttext": "Round 2",
+			"value": "R2"
+		},
+		"3": {
+			"defaulttext": "Grand Final",
+			"value": "R4"
+		}
+	},
+	"roundssections": {
+		"1": {
+			"type": "w",
+			"value": "Winners Bracket"
+		},
+		"2": {
+			"type": "l",
+			"value": "Losers Bracket"
+		},
+		"3": {
+			"type": "f",
+			"value": "Grand Finals"
+		}
+	},
+	"inrounds": {
+		"1": {
+			"match_R1-1": {
+				"roundssection": 1,
+				"connection": "trb",
+				"loserTargetEdit": "R1",
+				"players": {
+					"1": "list:1",
+					"2": "list:2"
+				}
+			},
+			"match_R1-2": {
+				"roundssection": 1,
+				"connection": "brt",
+				"loserTargetEdit": "R1",
+				"players": {
+					"1": "list:3",
+					"2": "list:4"
+				}
+			},
+			"match_R1-3": {
+				"roundssection": 2,
+				"connection": "brt",
+				"players": {
+					"1": "loserEdit:R1-2",
+					"2": "loserEdit:R1-1"
+				}
+			}
+		},
+		"2": {
+			"match_R2-1": {
+				"roundssection": 1,
+				"connection": "brt",
+				"players": {
+					"1": "winner:R1-1",
+					"2": "winner:R1-2"
+				}
+			},
+			"match_R2-2": {
+				"roundssection": 2,
+				"players": {
+					"1": "loser:R2-1",
+					"2": "winner:R1-3"
+				}
+			}
+		},
+		"3": {
+			"match_R3-1": {
+				"roundssection": 3,
+				"players": {
+					"1": "winner:R2-1",
+					"2": "winner:R2-2"
+				}
+			}
+		}
+	},
+	"syntax": "|[prefix_name]=[name] |[prefix_race]=[race] |[prefix_flag]=[flag] |[prefix_score]=[score]",
+	"prefixes": {
+		"flag": "R[round][type][match]flag",
+		"race": "R[round][type][match]race",
+		"name": "R[round][type][match]",
+		"score": "R[round][type][match]score"
+	}
+}

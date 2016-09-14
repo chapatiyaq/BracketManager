@@ -1,0 +1,429 @@
+{
+	"title": "16SEBracket",
+	"maxNumberOfPlayers": 16,
+	"thirdPlaceMatch": true,
+	"structure": {
+		"winner": [
+			{
+				"type": "main",
+				"roundID": "R1",
+				"comment": "ROUND OF 16 (Ro16)",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R1"
+					},
+					{
+						"type": "match",
+						"id": "R1G1"
+					},
+					{
+						"type": "match",
+						"id": "R1G2"
+					},
+					{
+						"type": "match",
+						"id": "R1G3"
+					},
+					{
+						"type": "match",
+						"id": "R1G4"
+					},
+					{
+						"type": "match",
+						"id": "R1G5"
+					},
+					{
+						"type": "match",
+						"id": "R1G6"
+					},
+					{
+						"type": "match",
+						"id": "R1G7"
+					},
+					{
+						"type": "match",
+						"id": "R1G8"
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [
+					{ "type": "roundSpacer" },
+					{ "type": "spacer",
+						"height": "26px"
+					},
+					{ "type": "repeat",
+						"iterations": 4,
+						"core": [
+							{ "type": "¯|_",
+								"height": "18px",
+								"break": 15
+							},
+							{ "type": "spacer",
+								"height": "20px"
+							},
+							{ "type": "_|¯",
+								"height": "18px",
+								"break": 15
+							}
+						],
+						"between": [
+							{ "type": "spacer",
+								"height": "52px"
+							}
+						]
+					},
+					{ "type": "spacer",
+						"height": "26px"
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R2",
+				"comment": "QUARTERFINALS",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R2"
+					},
+					{
+						"type": "linespacer",
+						"height": 1
+					},
+					{
+						"type": "match",
+						"id": "R2G1"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					},
+					{
+						"type": "match",
+						"id": "R2G2"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					},
+					{
+						"type": "match",
+						"id": "R2G3"
+					},
+					{
+						"type": "linespacer",
+						"height": 2
+					},
+					{
+						"type": "match",
+						"id": "R2G4"
+					},
+					{
+						"type": "linespacer",
+						"height": 1
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [
+					{ "type": "roundSpacer"	},
+					{ "type": "spacer",
+						"height": "53px"
+					},
+					{
+						"type": "repeat",
+						"iterations": 2,
+						"core": [
+							{ "type": "¯|_",
+								"height": "45px"
+							},
+							{ "type": "spacer",
+								"height": "20px"
+							},
+							{ "type": "_|¯",
+								"height": "45px"
+							}
+						],
+						"between": [
+							{ "type": "spacer",
+								"height": "106px"
+							}
+						]
+					},
+					{ "type": "spacer",
+						"height": "53px"
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R3",
+				"comment": "SEMIFINALS",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R3"
+					},
+					{
+						"type": "linespacer",
+						"height": 3
+					},
+					{
+						"type": "match",
+						"id": "R3G1"
+					},
+					{
+						"type": "linespacer",
+						"height": 6
+					},
+					{
+						"type": "match",
+						"id": "R3G2"
+					},
+					{
+						"type": "linespacer",
+						"height": 3
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [
+					{ "type": "roundSpacer" },
+					{ "type": "spacer",
+						"height": "107px"
+					},
+					{ "type": "¯|_",
+						"height": "99px"
+					},
+					{ "type": "spacer",
+						"height": "20px"
+					},
+					{ "type": "_|¯",
+						"height": "99px"
+					},
+					{ "type": "spacer",
+						"height": "107px"
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R4",
+				"comment": "FINAL MATCH",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R4"
+					},
+					{
+						"type": "linespacer",
+						"height": 7
+					},
+					{
+						"type": "match",
+						"id": "R4G1"
+					},
+					{
+						"type": "linespacer",
+						"height": 1
+					},
+					{
+						"type": "thirdPlaceMatchLabel",
+						"id": "L4"
+					},
+					{
+						"type": "thirdPlaceMatch",
+						"id": "R4G2"
+					}
+				]
+			}
+		]
+	},
+	"matches": {
+		"R1G1": {
+			"player1": {
+				"tag": "R1D1",
+				"source": "list:1"
+			},
+			"player2": {
+				"tag": "R1D2",
+				"source": "list:2"
+			}
+		},
+		"R1G2": {
+			"player1": {
+				"tag": "R1D3",
+				"source": "list:3"
+			},
+			"player2": {
+				"tag": "R1D4",
+				"source": "list:4"
+			}
+		},
+		"R1G3": {
+			"player1": {
+				"tag": "R1D5",
+				"source": "list:5"
+			},
+			"player2": {
+				"tag": "R1D6",
+				"source": "list:6"
+			}
+		},
+		"R1G4": {
+			"player1": {
+				"tag": "R1D7",
+				"source": "list:7"
+			},
+			"player2": {
+				"tag": "R1D8",
+				"source": "list:8"
+			}
+		},
+		"R1G5": {
+			"player1": {
+				"tag": "R1D9",
+				"source": "list:9"
+			},
+			"player2": {
+				"tag": "R1D10",
+				"source": "list:10"
+			}
+		},
+		"R1G6": {
+			"player1": {
+				"tag": "R1D11",
+				"source": "list:11"
+			},
+			"player2": {
+				"tag": "R1D12",
+				"source": "list:12"
+			}
+		},
+		"R1G7": {
+			"player1": {
+				"tag": "R1D13",
+				"source": "list:13"
+			},
+			"player2": {
+				"tag": "R1D14",
+				"source": "list:14"
+			}
+		},
+		"R1G8": {
+			"player1": {
+				"tag": "R1D15",
+				"source": "list:15"
+			},
+			"player2": {
+				"tag": "R1D16",
+				"source": "list:16"
+			}
+		},
+		"R2G1": {
+			"player1": {
+				"tag": "R2W1",
+				"source": "winner:R1G1"
+			},
+			"player2": {
+				"tag": "R2W2",
+				"source": "winner:R1G2"
+			}
+		},
+		"R2G2": {
+			"player1": {
+				"tag": "R2W3",
+				"source": "winner:R1G3"
+			},
+			"player2": {
+				"tag": "R2W4",
+				"source": "winner:R1G4"
+			}
+		},
+		"R2G3": {
+			"player1": {
+				"tag": "R2W5",
+				"source": "winner:R1G5"
+			},
+			"player2": {
+				"tag": "R2W6",
+				"source": "winner:R1G6"
+			}
+		},
+		"R2G4": {
+			"player1": {
+				"tag": "R2W7",
+				"source": "winner:R1G7"
+			},
+			"player2": {
+				"tag": "R2W8",
+				"source": "winner:R1G8"
+			}
+		},
+		"R3G1": {
+			"player1": {
+				"tag": "R3W1",
+				"source": "winner:R2G1"
+			},
+			"player2": {
+				"tag": "R3W2",
+				"source": "winner:R2G2"
+			}
+		},
+		"R3G2": {
+			"player1": {
+				"tag": "R3W3",
+				"source": "winner:R2G3"
+			},
+			"player2": {
+				"tag": "R3W4",
+				"source": "winner:R2G4"
+			}
+		},
+		"R4G1": {
+			"player1": {
+				"tag": "R4W1",
+				"source": "winner:R3G1"
+			},
+			"player2": {
+				"tag": "R4W2",
+				"source": "winner:R3G2"
+			}
+		},
+		"R4G2": {
+			"player1": {
+				"tag": "R4D1",
+				"source": "loser:R3G1"
+			},
+			"player2": {
+				"tag": "R4D2",
+				"source": "loser:R3G2"
+			}
+		}
+	},
+	"roundTitles": {
+		"R1": {
+			"text": "Round of 16"
+		},
+		"R2": {
+			"text": "Quarterfinals"
+		},
+		"R3": {
+			"text": "Semifinals"
+		},
+		"R4": {
+			"text": "Finals"
+		},
+		"L4": {
+			"text": "3rd place match"
+		}
+	}
+}

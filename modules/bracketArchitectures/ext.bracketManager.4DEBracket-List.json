@@ -1,0 +1,240 @@
+{
+	"title": "4DEBracket",
+	"maxNumberOfPlayers": 6,
+	"structure": {
+		"winner": [
+			{
+				"type": "main",
+				"roundID": "R1",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R1"
+					},
+					{
+						"type": "match",
+						"id": "R1G1"
+					},
+					{
+						"type": "match",
+						"id": "R1G2"
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [
+					{ "type": "roundSpacer" },
+					{ "type": "spacer",
+						"height": "26px"
+					},
+					{ "type": "¯|_",
+						"height": "18px",
+						"break": 15
+					},
+					{ "type": "spacer",
+						"height": "20px"
+					},
+					{ "type": "_|¯",
+						"height": "18px",
+						"break": 15
+					},
+					{ "type": "spacer",
+						"height": "26px"
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R2",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R2"
+					},
+					{
+						"type": "linespacer",
+						"height": 1
+					},
+					{
+						"type": "match",
+						"id": "R2G1"
+					},
+					{
+						"type": "linespacer",
+						"height": 1
+					}
+				]
+			}
+		],
+		"loser": [
+			{
+				"type": "main",
+				"roundID": "R1",
+				"elements": [
+					{
+						"type": "linespacer",
+						"height": 1
+					},
+					{
+						"type": "match",
+						"id": "R1G3"
+					}
+				]
+			},
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [
+					{
+						"type": "spacer",
+						"height": "11px"
+					},
+					{
+						"type": "|_",
+						"height": "6px",
+						"break": 15
+					},
+					{ "type": "spacer",
+						"height": "20px"
+					},
+					{ "type": "_|¯",
+						"height": "18px",
+						"break": 15
+					},
+					{ "type": "spacer",
+						"height": "11px"
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R2",
+				"elements": [
+					{
+						"type": "match",
+						"id": "R2G2"
+					}
+				]
+			}
+		],
+		"final": [
+			{
+				"type": "connectors",
+				"width": "27px",
+				"elements": [
+					{ "type": "roundSpacer" },
+					{
+						"type": "spacer",
+						"height": "53px"
+					},
+					{ "type": "¯|_",
+						"height": "31px",
+						"break": 15
+					},
+					{
+						"type": "spacer",
+						"height": "20px"
+					},
+					{ "type": "_|¯",
+						"height": "32px",
+						"break": 15
+					}
+				]
+			},
+			{
+				"type": "main",
+				"roundID": "R7",
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R3"
+					},
+					{
+						"type": "linespacer",
+						"height": 2.5
+					},
+					{
+						"type": "match",
+						"id": "R3G1"
+					}
+				]
+			}
+		]
+	},
+	"matches": {
+		"R1G1": {
+			"player1": {
+				"tag": "R1D1",
+				"source": "list:1"
+			},
+			"player2": {
+				"tag": "R1D2",
+				"source": "list:2"
+			}
+		},
+		"R1G2": {
+			"player1": {
+				"tag": "R1D3",
+				"source": "list:3"
+			},
+			"player2": {
+				"tag": "R1D4",
+				"source": "list:4"
+			}
+		},
+		"R1G3": {
+			"player1": {
+				"tag": "R1D5",
+				"source": "list:5"
+			},
+			"player2": {
+				"tag": "R1D6",
+				"source": "list:6"
+			}
+		},
+		"R2G1": {
+			"player1": {
+				"tag": "R2W1",
+				"source": "winner:R1G1"
+			},
+			"player2": {
+				"tag": "R2W2",
+				"source": "winner:R1G2"
+			}
+		},
+		"R2G2": {
+			"player1": {
+				"tag": "R2D1",
+				"source": "loser:R2G1"
+			},
+			"player2": {
+				"tag": "R2W3",
+				"source": "winner:R1G3"
+			}
+		},
+		"R3G1": {
+			"secondSeries": true,
+			"player1": {
+				"tag": "R3W1",
+				"source": "winner:R2G1"
+			},
+			"player2": {
+				"tag": "R3W2",
+				"source": "winner:R2G2"
+			}
+		}
+	},
+	"roundTitles": {
+		"R1": {
+			"text": "Round 1"
+		},
+		"R2": {
+			"text": "Round 2"
+		},
+		"R3": {
+			"text": "Grand Final"
+		}
+	}
+}

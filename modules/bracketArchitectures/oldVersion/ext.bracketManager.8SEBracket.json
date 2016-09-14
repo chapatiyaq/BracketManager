@@ -1,0 +1,110 @@
+{
+	"title": "8SEBracket",
+	"maxnumberofplayers": 8,
+	"thirdplacematch": 1,
+	"rounds": {
+		"1": {
+			"defaulttext": "Quarterfinals",
+			"value":"R1"
+		},
+		"2": {
+			"defaulttext": "Semifinals",
+			"value":"R2"
+		},
+		"3": {
+			"defaulttext": "Finals",
+			"value":"R3"
+		}
+	},
+	"roundssections": {
+		"1": {
+			"type":"w",
+			"value":"Winners Bracket"
+		}
+	},
+	"inrounds":{
+		"1":{
+			"match_R1-1":{
+				"roundssection":1,
+				"connection":"trb",
+				"players":{
+					"1":"list:1",
+					"2":"list:2"
+				}
+			},
+			"match_R1-2":{
+				"roundssection":1,
+				"connection":"brt",
+				"players":{
+					"1":"list:3",
+					"2":"list:4"
+				}
+			},
+			"match_R1-3":{
+				"roundssection":1,
+				"connection":"trb",
+				"players":{
+					"1":"list:5",
+					"2":"list:6"
+				}
+			},
+			"match_R1-4":{
+				"roundssection":1,
+				"connection":"brt",
+				"players":{
+					"1":"list:7",
+					"2":"list:8"
+				}
+			}
+		},
+		"2":{
+			"match_R2-1":{
+				"roundssection":1,
+				"connection":"tr",
+				"players":{
+					"1":"winner:R1-1",
+					"2":"winner:R1-2"
+				}
+			},
+			"onlycx_R1-C1":{
+				"roundssection":1,
+				"connection":"rtr"
+			},
+			"match_R2-2":{
+				"roundssection":1,
+				"connection":"br",
+				"players":{
+					"1":"winner:R1-3",
+					"2":"winner:R1-4"
+				}
+			}
+		},
+		"3":{
+			"match_R3-1":{
+				"roundssection":1,
+				"players":{
+					"1":"winner:R2-1",
+					"2":"winner:R2-2"
+				}
+			},
+			"thirdplacelabel_R3-T1":{
+				"roundssection":1
+			},
+			"thirdplacematch_R3-2":{
+				"roundssection":1,
+				"players":{
+					"1":"loser:R2-1",
+					"2":"loser:R2-2"
+				}
+			}
+		}
+	},
+	"syntax":"|[prefix_name]=[name] |[prefix_race]=[race] |[prefix_flag]=[flag] |[prefix_score]=[score]",
+	"prefixes":{
+		"flag":"R[round][type][match]flag",
+		"race":"R[round][type][match]race",
+		"name":"R[round][type][match]",
+		"score":"R[round][type][match]score"
+	}
+}
+	

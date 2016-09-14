@@ -1,0 +1,41 @@
+{
+	"title": "2SEBracket",
+	"maxNumberOfPlayers": "2",
+	"thirdPlaceMatch": false,
+	"structure": {
+		"winner": [
+			{
+				"type": "main",
+				"roundID": "R1",
+				"comment": false,
+				"elements": [
+					{
+						"type": "roundTitle",
+						"id": "R1"
+					},
+					{
+						"type": "match",
+						"id": "R1G1"
+					}
+				]
+			}
+		]
+	},
+	"matches": {
+		"R1G1": {
+			"player1": {
+				"tag": "R1D1",
+				"source": "list:1"
+			},
+			"player2": {
+				"tag": "R1D2",
+				"source": "list:2"
+			}
+		}
+	},
+	"roundTitles": {
+		"R1": {
+			"text": "Round 1"
+		}
+	}
+}
